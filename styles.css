@@ -8,7 +8,7 @@ body {
 
 /* Header Background styles */
 .header-background {
-    background-image: url('Images/pexels-donald-tong-23475.jpg'); /* Replace with your header background image */
+    background-image: url('Images/cover.jpg'); /* Replace with your header background image */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Adjust the height to your liking */
@@ -206,6 +206,16 @@ p {
 .watch-item p {
     font-size: 16px;
     color: #777;
+}
+
+/* Styles for images */
+.collection-item img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain image aspect ratio */
+    border: 2px solid #333; /* Add a border to images */
+    border-radius: 10px; /* Rounded corners for images */
+    margin: 10px; /* Add spacing around images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 /* Contact Form styles */
